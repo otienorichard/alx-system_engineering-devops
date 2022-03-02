@@ -1,4 +1,2 @@
 #!/bin/bash
-/tmp
-ls*i
-why?
+file /tmp/iamfile

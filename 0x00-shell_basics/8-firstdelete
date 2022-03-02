@@ -1,4 +1,2 @@
 #!/bin/bash
-rm -r Betty
-deletion of the file
-why?
+rm /tmp/my_first_directory/betty
