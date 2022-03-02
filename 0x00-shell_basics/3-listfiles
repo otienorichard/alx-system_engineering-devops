@@ -1,0 +1,13 @@
+#!/bin/bash
+total 32
+drwxr-xr-x 1 user 197121       0 Mar  2 22:51  Desktop/
+-rw-r--r-- 1 user 197121      95 Dec  6 14:49  desktop.ini
+-rw-r--r-- 1 user 197121       0 Dec 26 23:21 'Document 1.docx'
+-rw-r--r-- 1 user 197121       0 Dec 26 23:21 'Document 2.docx'
+-rw-r--r-- 1 user 197121       0 Dec 26 23:21  Document.docx
+drwxr-xr-x 1 user 197121       0 Mar  2 22:53  Documents/
+-rw-r--r-- 1 user 197121 1151898 Jun 30  2021 'Getting started with OneDrive.pdf'
+drwxr-xr-x 1 user 197121       0 Jan  8 12:35  OfficeMobile/
+-rwxr-xr-x 1 user 197121    1162 Mar  2 20:55 'Personal Vault.lnk'*
+drwxr-xr-x 1 user 197121       0 Feb 25 14:19  Pictures/
+wh?
