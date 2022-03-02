@@ -1,1 +1,4 @@
 #!/bin/bash
+tmp/sym
+sym -s
+why?

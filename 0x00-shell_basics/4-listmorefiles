@@ -1,1 +1,4 @@
 #!/bin/bash
+Hidden files
+. filename [arguments]
+why?
