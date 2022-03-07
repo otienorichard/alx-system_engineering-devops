@@ -1,4 +1,2 @@
-0-hello_world
-README.md
-0-hello_world
-README.md
+#!/bin/bash
+Hello, World
