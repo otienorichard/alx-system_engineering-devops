@@ -6,7 +6,3 @@ list=$(ls)
 for i in $list; do
   echo "$i" | cut -d '-' -f2
 done
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
