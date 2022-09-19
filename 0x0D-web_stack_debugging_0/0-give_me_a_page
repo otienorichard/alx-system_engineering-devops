@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# Install apache2 web server to fix empty respond error
-apt-get update -y
-apt-get upgrade -y
-apt-get install apache2 -y
-echo "Hello Holberton" > /var/www/html/index.html
-echo "HttpProtocolOptions Unsafe" >> /etc/apache2/apache2.conf
-service apache2 restart
