@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# install nginx server and change landing content
+apt-get update -y
+apt-get upgrade -y
+apt-get install nginx -y
+echo "Holberton School" > /usr/share/nginx/html/index.html
+/etc/init.d/nginx restart

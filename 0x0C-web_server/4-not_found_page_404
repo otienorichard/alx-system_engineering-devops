@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# set custom 404 page
+apt-get update -y
+apt-get install nginx -y
+echo "Holberton School" > /usr/share/nginx/html/index.html
+/etc/init.d/nginx start
+num="$(grep -c -P '^\tlocation \/redirect_me' < /etc/nginx/sites-available/default)"
+if [ "$num" -eq 0 ]
+then
+	sed -i '/^\tserver_name/ a\\n\tlocation \/redirect_me \{\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t\}\n' /etc/nginx/sites-available/default
+fi
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
+num="$(grep -c -P '^\terror_page 404' < /etc/nginx/sites-available/default)"
+if [ "$num" -eq 0 ]
+then
+	sed -i '/^\tserver_name/ a\\n\terror_page 404 /custom_404.html;\n' /etc/nginx/sites-available/default
+fi
+service nginx restart
